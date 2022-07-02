@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (min-width: 1024px) {
+    .top-navbar {
+        display: inline-flex !important;
+    }
+}
+
+body {
+    overflow: overlay;
+}
+
+.swal-modal {
+    z-index: 100 !important;
+}
+
+.swal-overlay {
+    z-index: 100 !important;
+}
+
+::selection {
+    color: #ffffff;
+    background: #ff5691;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #efc9cf;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ec6882;
+}
+
+.st0 {
+    fill: #fff
+}
+
+.st1 {
+    fill: #b5dfea
+}
+
+.st2 {
+    opacity: .55;
+    fill: #90cedd
+}
+
+.st3 {
+    fill: #d7f0f9
+}
+
+.st4 {
+    fill: #266b87
+}
+
+.st5 {
+    fill: #ffebc8
+}
+
+.st6 {
+    fill: #ffedcc
+}
+
+.st7 {
+    fill: #00668e
+}
+
+.st8 {
+    fill: #05556d
+}
+
+.st9 {
+    fill: #f98d3d
+}
+
+.st10 {
+    fill: #ed701b
+}
+
+.st11 {
+    fill: none
+}
+
+.st12 {
+    fill: #efaa3a
+}
+
+.st13 {
+    opacity: .29;
+    fill: #f98d2b
+}
+
+.st14 {
+    fill: #49b4d6
+}
+
+.st15 {
+    fill: #ffca9f
+}
+
+.st16 {
+    fill: #f77e2d
+}
+
+.st17 {
+    opacity: .55;
+    fill: url(#SVGID_1_)
+}
+
+.st-text {
+    fill: #ec6882;
+}
+
+.st-sun {
+    fill: #fcbb45
+}
+
+.st-sun-shadow {
+    fill: #fcac20
+}
+
