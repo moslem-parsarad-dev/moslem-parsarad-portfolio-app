@@ -8,7 +8,7 @@ const Projects = () => {
             date: "October 2021",
             description: "A electron.js application  that is suitable for everybody.It has the capabilities that a person everytimes needs",
             subtitle: "Jahbeh Abzar:",
-            imageSource: "images/jabeh-abzar.jpg",
+            imageSource: "moslem-parsarad-portfolio-app/images/jabeh-abzar.jpg",
             imageAlt: "moslem parsarad|jabeh-abzar.jpg",
             classProjectActive: ""
         },
@@ -18,7 +18,7 @@ const Projects = () => {
             date: "May 2022",
             description: "A social network for the development and popularization of the Persian language",
             subtitle: "Jahbeh Abzar:",
-            imageSource: "images/developing.jpg ",
+            imageSource: "moslem-parsarad-portfolio-app/images/developing.jpg ",
             imageAlt: "moslem parsarad|zharfa farsi",
             classProjectActive: "backdrop-blur-sm bg-[#DCDCDC3D]"
         },
