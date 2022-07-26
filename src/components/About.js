@@ -104,7 +104,7 @@ const About = () => {
                             <br/>
                                 <p className="text-2xl">English -> 60% (Learning)</p>
                                 <p className="text-2xl">Persian -> 100%</p>
-                                <p className="text-2xl">Arabic -> 10% (Learning)</p>
+                                <p className="text-2xl">Germany -> 10% (Learning)</p>
                         </div>
                     </div>
 
