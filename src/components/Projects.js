@@ -10,7 +10,8 @@ const Projects = () => {
             subtitle: "Jahbeh Abzar:",
             imageSource: "images/jabeh-abzar.jpg",
             imageAlt: "moslem parsarad|jabeh-abzar.jpg",
-            classProjectActive: ""
+            classProjectActive: "",
+            href: "https://github.com/moslem-parsarad-dev/jahbeh-abzar/"
         },
         {
             id: "1",
@@ -20,7 +21,8 @@ const Projects = () => {
             subtitle: "book-search-app",
             imageSource: "images/developing.jpg ",
             imageAlt: "moslem parsarad|book-search-book",
-            classProjectActive: "backdrop-blur-sm bg-[#DCDCDC3D]"
+            classProjectActive: "",
+            href: "https://github.com/moslem-parsarad-dev/search-book-app"
         },
     ])
 
@@ -31,7 +33,7 @@ const Projects = () => {
                 <h4 className="mb-8 text-3xl font-bold text-center md:text-left text-a_purple">Experience</h4>
                 {project.map((item, index) => <div  key={index} className={`grid grid-cols-1 md:grid-cols-6 my-10 p-3 ${item.classProjectActive}`}>
                     <div className="flex flex-col col-span-2 mb-4 md:mb-0">
-                        <h5 className="text-xl md:text-2xl font-bold text-a_aqua">{item.title}</h5>
+                        <h5 className="text-xl md:text-2xl font-bold text-a_aqua"><a href={item.href}>{item.title}</a></h5>
                         <p>{item.date}</p>
                     </div>
                     <div className="flex flex-col col-span-4">
