@@ -14,12 +14,12 @@ const Projects = () => {
         },
         {
             id: "1",
-            title: "Build Web Application Using Django (Zharfa Farsi)",
+            title: "Build Web Application Using React (book-search-app)",
             date: "May 2022",
-            description: "A social network for the development and popularization of the Persian language",
-            subtitle: "Jahbeh Abzar:",
+            description: "You search for a specific subject and we will bring you the best results",
+            subtitle: "book-search-app",
             imageSource: "images/developing.jpg ",
-            imageAlt: "moslem parsarad|zharfa farsi",
+            imageAlt: "moslem parsarad|book-search-book",
             classProjectActive: "backdrop-blur-sm bg-[#DCDCDC3D]"
         },
     ])
