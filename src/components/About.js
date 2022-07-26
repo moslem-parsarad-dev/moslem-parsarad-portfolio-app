@@ -57,7 +57,7 @@ const About = () => {
                 <div className="flex flex-col items-center justify-center text-center h-screen-half">
                     <img
                         className="md:hidden object-cover w-15 h-40 rounded-full mb-5 ring-2 ring-gray-500/50 ring-offset-[10px]"
-                        src="moslem-parsarad-portfolio-app/images/moslemparsarad.jpg"
+                        src="images/moslemparsarad.jpg"
                         alt="Your Name Here"/>
                         <h1 className="text-5xl text-a_red sm:text-6xl lg:text-9xl">Moslem Parsarad</h1>
                         <h2 className="font-light text-a_blue text-4xl sm:text-5xl lg:text-8xl">FUll Stack Developer</h2>
@@ -87,7 +87,7 @@ const About = () => {
                 </div>
                 <img
                     className="hidden md:block object-cover w-1/4 h-screen rounded-full ring-2 ring-gray-500/50 ring-offset-[30px]"
-                    src="moslem-parsarad-portfolio-app/images/moslemparsarad.jpg" alt="Your Name Here"/>
+                    src="images/moslemparsarad.jpg" alt="Your Name Here"/>
                     <div className="hidden md:flex flex-col w-1/3 space-y-12 text-right">
                         <div className="px-20">
                             <h4 className="text-xl font-bold text-a_purple">Experience</h4>
