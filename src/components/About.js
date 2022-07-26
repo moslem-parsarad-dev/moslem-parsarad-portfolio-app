@@ -82,7 +82,7 @@ const About = () => {
                     <div className="px-10 md:px-20">
                         <br/>
                             <h3 className="text-xl font-bold text-a_purple">Contact</h3>
-                            <a className="text-xl hover:text-blue-600" href="moslemparsarad.dev.mp@gmail.com">moslemparsarad.dev.mp@gmail.com</a>
+                            <a className="text-xl hover:text-blue-600" href="mailto: moslemparsarad.dev.mp@gmail.com">moslemparsarad.dev.mp@gmail.com</a>
                     </div>
                 </div>
                 <img
