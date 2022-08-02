@@ -18,7 +18,7 @@ const About = () => {
                                    </Link>
                                 </li>
                                 <li className="text-left">
-                                    <a href={"https://drive.google.com/file/d/1dCHstY720GoJRBkKVY2bgqV50Rg3X_3k/view?usp=sharing"} className={'text-red-500'}>
+                                    <a href={"https://drive.google.com/file/d/1uXIurazkqKqXOky8CareyeGgppdKRIrq/view?usp=sharing"} className={'text-red-500'}>
                                         Download Resume
                                     </a>
                                  </li>
